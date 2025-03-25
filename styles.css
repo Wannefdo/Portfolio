@@ -14,7 +14,8 @@ body {
     color: white;
     text-align: center;
     overflow-x: hidden;
-    background: linear-gradient(-45deg, #001f3f, #002855, #003f7f);
+    background: -webkit-linear-gradient(-45deg, #001f3f, #002855, #003f7f);
+    background-size: 400% 400%;
     animation: gradientBG 10s ease infinite;
     position: relative;
 }
