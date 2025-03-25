@@ -44,23 +44,6 @@ sections.forEach(section => {
     observer.observe(section);
 });
 
-// Handle Form Submission (Using Netlify Forms)
-document.getElementById('contact-form').addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    let name = document.getElementById('name').value.trim();
-    let email = document.getElementById('email').value.trim();
-    let message = document.getElementById('message').value.trim();
-
-    if (name === "" || email === "" || message === "") {
-        alert("Please fill in all fields.");
-        return;
-    }
-
-    console.log("Sending Data:", { name, email, message });
-
-    this.submit(); // Netlify will handle the form submission automatically
-});
 
 // Skills Progress Animation
 document.addEventListener("DOMContentLoaded", function () {
