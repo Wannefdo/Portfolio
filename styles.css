@@ -748,3 +748,15 @@ section {
     font-size: 0.9rem;
     color: #b0bec5;
 }
+
+/* Ensure responsiveness */
+.g-recaptcha {
+    transform: scale(0.8);
+    transform-origin: 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .g-recaptcha {
+        transform: scale(0.9);  /* Adjust for smaller screens */
+    }
+}
