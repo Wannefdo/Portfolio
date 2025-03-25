@@ -14,14 +14,24 @@ body {
     color: white;
     text-align: center;
     overflow-x: hidden;
+    
+    position: relative;
+
     background: -webkit-linear-gradient(-45deg, #001f3f, #002855, #003f7f);
+    background: linear-gradient(-45deg, #001f3f, #002855, #003f7f);
     background-size: 400% 400%;
     animation: gradientBG 10s ease infinite;
-    position: relative;
+    -webkit-animation: gradientBG 10s ease infinite;
 }
 
 /* Gradient Animation */
 @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@-webkit-keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
