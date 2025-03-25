@@ -11,7 +11,7 @@
 
 /* General Styles */
 body {
-    color: white;
+    color: #00bcd4;
     text-align: center;
     overflow-x: hidden;
     
@@ -648,6 +648,7 @@ section {
     margin: 10px 0;
     border: none;
     border-radius: 5px;
+    background: hsl(194, 60%, 77%);
 }
 
 #contact-form button {
