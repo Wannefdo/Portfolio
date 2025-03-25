@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anne Fernando</title>
+    <link rel="icon" href="assets/annelogo.png" type="image/png" >
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Your Script -->
+    <script src="script.js" defer></script>
+     
+     
+    <!-- SweetAlert2 Library -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      
+      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+</head>
+
+
+<body>
+    <div class="stars"></div>
+
+    
+    <!-- Navbar -->
+<nav class="navbar">
+    <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <ul id="nav-menu" class="nav-menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="assets/extra.jpg" alt="Your Profile Picture">
+            </div>
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Anne Fernando</span></h1>
+                <p>Frontend Developer | App Developer | UI Designer</p>
+                <a href="W.A.C.Fernando_CV.pdf" target="_blank" download class="download-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>"Hi, I'm Anne, a passionate and creative Software Engineering undergraduate at CINEC Campus.<br>
+            With expertise in frontend development, app development including UI design,<br>
+            I focus on creating intuitive and user-friendly applications.<br>
+            I'm always exploring new technologies and looking for opportunities to solve real-world problems through innovative solutions.<br>
+            Welcome to my portfolio, where I showcase my skills, projects, and journey<br>
+            in the world of software development."</p>
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/wannefernando" target="_blank" class="icon linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Wannefdo/" target="_blank" class="icon github"><i class="fab fa-github"></i></a>
+            <a href="mailto:annefernando212@gmail.com" class="icon gmail"><i class="fas fa-envelope"></i></a>
+            <a href="https://x.com/annefdo212" target="_blank" class="icon x"><i class="fab fa-x-twitter"></i></a>           
+            <!--<a href="https://www.instagram.com/annaaa_fdo?igsh=MTRwZDQwOXRmdnhscA%3D%3D&utm_source=qr" target="_blank" class="icon instagram"><i class="fab fa-instagram"></i>
+            <a href="https://www.facebook.com/share/169qs4nk8J/?mibextid=wwXIfr" target="_blank" class="icon facebook"><i class="fab fa-facebook"></i></a></a>-->
+            <a href="https://www.threads.net/@annaaa_fdo?igshid=NTc4MTIwNjQ2YQ==" target="_blank" class="icon threads"><i class="fab fa-threads"></i></a>
+            
+        </div>
+        
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill" data-percent="90">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                </div>
+                <p>HTML</p>
+            </div>
+            <div class="skill" data-percent="90">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                </div>
+                <p>CSS</p>
+            </div>
+            <div class="skill" data-percent="70">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fab fa-js"></i>
+                    </div>
+                </div>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill" data-percent="70">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fab fa-php"></i>
+                    </div>
+                </div>
+                <p>PHP</p>
+            </div>
+            <div class="skill" data-percent="70">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fas fa-database"></i>
+                    </div>
+                </div>
+                <p>SQL</p>
+            </div>
+            <div class="skill" data-percent="60">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fab fa-react"></i>
+                    </div>
+                </div>
+                <p>React</p>
+            </div>
+            <div class="skill" data-percent="20">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <p>C++</p>
+            </div>
+            <div class="skill" data-percent="20">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+                <p>C#</p>
+            </div>
+            <div class="skill" data-percent="75">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fab fa-java"></i>
+                    </div>
+                </div>
+                <p>Java</p>
+            </div>
+            <div class="skill" data-percent="60">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fab fa-python"></i>
+                    </div>
+                </div>
+                <p>Python</p>
+            </div>
+            <div class="skill" data-percent="70">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+                <p>Flutter</p>
+            </div>
+            <div class="skill" data-percent="15">
+                <div class="outer">
+                    <div class="inner">
+                        <i class="fab fa-unity"></i>
+                    </div>
+                </div>
+                <p>Unity</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" onclick="window.open('https://github.com/Surandinawodya/Inventory-management-system.git', '_blank')">
+                <img src="assets/project1.png" alt="Project 1" class="project-image">
+                <h3 class="project-title">Hospital Inventory<br>Management System</h3>
+                <button class="view-project">View Project</button>
+                <div class="tags">
+                    <span>React.js</span>
+                    <span>CSS</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/HarshaKTM/web-architecture-group_project.git', '_blank')">
+                <video class="project-video" autoplay loop muted>
+                    <source src="assets/project2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 class="project-title">ZenFlow: Mind<br>Relaxation Website</h3>
+                <button class="view-project">View Project</button>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/Wannefdo/FindMyLost.git', '_blank')">
+                <img src="assets/project3.jpg" class="project-image">
+                <h3 class="project-title">FindMyLost:<br>Lost & Found System</h3>
+                <button class="view-project">View Project</button>
+                <div class="tags">
+                    <span>Java</span>
+                </div>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/Wannefdo/Simple_BMI_Calculator.git', '_blank')">
+                <video class="project-video" autoplay loop muted>
+                    <source src="assets/project4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 class="project-title">MyBMI: Simple<br>BMI Calculator</h3>
+                <button class="view-project">View Project</button>
+                <div class="tags">
+                    <span>Dart</span>
+                    <span>Swift</span>
+                    <span>HTML</span>
+                </div>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/Wannefdo/HRM_System.git', '_blank')">
+                <img src="assets/project5.jpg" class="project-image">
+                <h3 class="project-title">HRM<br>System</h3>
+                <button class="view-project">View Project</button>
+                <div class="tags">
+                    <span>PHP</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/Wannefdo/Pet_Care.git', '_blank')">
+                <video class="project-video" autoplay loop muted>
+                    <source src="assets/project6.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 class="project-title">Pet Care<br>Website</h3>
+                <button class="view-project">View Project</button>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/NethKW/EduWave.git', '_blank')">
+                <img src="assets/project7.jpg" class="project-image">
+                <h3 class="project-title">Tuition<br>Management System</h3>
+                <button class="view-project">View Project</button>
+                <div class="tags">
+                    <span>Dart</span>
+                    <span>SQLite</span>
+                </div>
+            </div>
+            <div class="project-card" onclick="window.open('https://wannefdo.itch.io', '_blank')">
+                <img src="assets/project8.jpg"  class="project-image">
+                <h3 class="project-title">2D Endless<br>Runner</h3>
+                <button class="view-project">Lets Play</button>
+                <div class="tags">
+                    <span>Unity</span>
+                    <span>C#</span>
+                </div>
+            </div>
+            
+            
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+
+    <!-- E-Certificates Section -->
+<section id="certificates">
+    <h2>Certificates</h2>
+    <p>Unstoppable Learning !</p>
+    <div class="certificates-container">
+        <div class="certificate-card">
+            <img src="assets/certificate2.png"  class="certificate-image">
+            <h3 class="certificate-title">CINEC CIRS 2023</h3>
+        </div>
+        <!-- Add more certificates here -->
+    </div>
+</section>
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" name="contact" method="POST" data-netlify="true">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Footer Section -->
+<footer id="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h2>Anne Fernando</h2>
+            <p>Passionate Frontend Developer<br>App Developer<br>UI Designer<br>Creative Mind</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Me</h3>
+            <a href="https://github.com/Wannefdo/" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/wannefernando" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:annefernando212@gmail.com" target="_blank" class="social-icon"><i class="fas fa-envelope"></i></a>
+            <a href="https://x.com/annefdo212" target="_blank" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/annaaa_fdo" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/sandya.fernando.520" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.threads.net/@annaaa_fdo?igshid=NTc4MTIwNjQ2YQ==" target="_blank" class="social-icon"><i class="fab fa-threads"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 W.A.C.Fernando. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
