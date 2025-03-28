@@ -11,27 +11,33 @@
 
 /* General Styles */
 body {
+    margin: 0;
+    padding: 0;
     color: #00bcd4;
     text-align: center;
     overflow-x: hidden;
-    
     position: relative;
-
-    background: -webkit-linear-gradient(-45deg, #001f3f, #002855, #003f7f);
-    background: linear-gradient(-45deg, #001f3f, #002855, #003f7f);
+    min-height: 100vh;
+    
+    /* Gradient with vendor prefixes */
+    background: #001f5f; /* Fallback color */
+    background: -webkit-linear-gradient(-45deg, #001f5f, #002855, #003ff7);
+    background: linear-gradient(-45deg, #001f5f, #002855, #003ff7);
     background-size: 400% 400%;
-    animation: gradientBG 10s ease infinite;
+    
+    /* Animation with vendor prefixes */
     -webkit-animation: gradientBG 10s ease infinite;
+    animation: gradientBG 10s ease infinite;
 }
 
-/* Gradient Animation */
-@keyframes gradientBG {
+/* Keyframes with vendor prefixes */
+@-webkit-keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
-@-webkit-keyframes gradientBG {
+@keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
