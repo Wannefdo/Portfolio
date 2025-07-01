@@ -496,6 +496,22 @@ section {
     transform: translateY(30px);
 }
 
+
+@media (max-width: 768px) {
+    #projects {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .project-card {
+        opacity: 1 !important;
+        transform: none !important;
+        animation: none !important;
+    }
+}
+
+
 @keyframes fadeInUp {
     0% {
         opacity: 0;
